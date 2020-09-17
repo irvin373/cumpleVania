@@ -173,7 +173,7 @@ const dataNotes = [{
   detail: 'Eres la persona que menos esperaba en mi vida, y después de stalkearte y saber mas de ti gracias a mis informantes xD. Pues terminamos hablando saliendo y ahora no imagino que tan diferente seria mi vida sin ti.',
   picture: './img/Viento.jpg',
   color: 'flex--dialga',
-},
+}
 ];
 
 function renderItem({id = 0, name = '', subtitle = '', detail = '', picture = '', color = 'flex--piplup'}) {
