@@ -115,21 +115,6 @@ const dataNotes = [{
   color: 'flex--blaziken',
 },
 {
-  name: 'Karo',
-  subtitle: 'Clow Fight',
-  detail: `Vani! sigue con las buenas vibras! las locuras! el anime! y todas las cosas buena onda que haces :3 Un abrazo a la distancia, espero que consigas todas tus metas y deseos! <3 <3 Feliz cumple mujer!`,
-  picture: './img/ClowFight.jpg',
-  color: 'flex--dialga',
-},
-{
-  name: 'Danae',
-  subtitle: 'Clow Shadow',
-  detail: `Feliz cumpleaños Vania! Mis deseos para tí son que sigas abriendote nuevos caminos con el éxito que lo haz hecho hasta ahora, que descubras nuevos horizontes, te plantees nuevos sueños y que nada te detenga para conseguirlos. Eres una persona admirable y tienes el don de inspirar e impulsar a otros, sigue así. Un fuerte abrazo a la distancia, felicidades!`,
-  picture: './img/ClowShadow.jpg',
-  color: 'flex--zekrom',
-},
-// new ones
-{
   name: 'Pedro',
   subtitle: 'Clow Forest',
   detail: `Feliz cumpleaños Vania, que las canas te eludan y el exito te persiga!`,
@@ -160,6 +145,40 @@ const dataNotes = [{
   color: 'flex--dialga',
 },
 {
+  name: 'Sofi',
+  subtitle: 'Clow shiny',
+  detail: `Vania! Feliz cumpleaños! 🎉🙆🏻‍♀️ Eres una persona increíble y te mereces el universo🌈
+  te admiro un montón (y creo que todos, jej) porque la pasión y dedicación que le pones a todo lo que te decides hacer es increíble ✨ Espero que hoy la hayas pasado súper bien y sigas viendo muchos animus y cumpliendo todo lo que te propones🐱‍👤~
+  Feliz cumpleaños Vani!! 💕`,
+  picture: './img/Brillo.jpg',
+  color: 'flex--piplup',
+},
+{
+  name: 'Adbiel',
+  subtitle: 'Clow Flower',
+  detail: `muchas felicidades vania, gracias por todo el apoyo esfuerzo que haces, eres una gran persona y mereces todo lo mejor
+  ( ^_^)o自自o(^_^ )`,
+  picture: './img/Flor.jpg',
+  color: 'flex--dialga',
+},
+{
+  name: 'Guz',
+  subtitle: 'Clow Mirror',
+  detail: `Vania! desde que empecé a conocerte admiré esa energía tuya para dirigir y organizar eventos, es genial que seas tan activa y que lo hagas de forma voluntaria. Todos sabemos lo mucho que te gusta bailar 😅 y aunque ahora no sea posible, seguramente cuando pase todo esto, le meteremos una maratónica en la tirana 😬
+  Espero que la hayas pasado bien y que tengas mil razones para sonreír, siempre hay alguna 🙂(y si no, nos avisas 😎)`,
+  picture: './img/Espejo.jpg',
+  color: 'flex--zekrom',
+},
+{
+  name: 'Julio Silva',
+  subtitle: 'Clow Mirror',
+  detail: `Vaniiiii Feliz cumpleaños
+  🥳🥳🥳🥳🥳🥳
+  Espero que la pases super bien y que todo sea felicidad para todas las cosas que hagas. Te mando un fuerte abrazo 😊🤗`,
+  picture: './img/Espejo.jpg',
+  color: 'flex--zekrom',
+}, 
+{
   name: 'Pao',
   subtitle: 'Clow Mirror',
   detail: `Feliz cumpleaños vani
@@ -167,13 +186,42 @@ const dataNotes = [{
   P.s. Eres mi persona`,
   picture: './img/Espejo.jpg',
   color: 'flex--zekrom',
-}, {
+},
+{
+  name: 'Mauri',
+  subtitle: 'Clow Flower',
+  detail: `Eres una persona increible vani. Alguien que trabaja un monton y le pone tanto amor a lo que hace. no puedo menos que admirarte un monton. Deseo que todo el esfuerzo que le pones a tus proyectos te retribuya un millon de veces. Un gran abrazo. Espero que hayas tenido un dia genial :)`,
+  picture: './img/Flor.jpg',
+  color: 'flex--dialga',
+},
+{
   name: 'Irvin',
   subtitle: 'Clow wind',
   detail: 'Eres la persona que menos esperaba en mi vida, y después de stalkearte y saber mas de ti gracias a mis informantes xD. Pues terminamos hablando saliendo y ahora no imagino que tan diferente seria mi vida sin ti.',
   picture: './img/Viento.jpg',
   color: 'flex--dialga',
-}
+},
+{
+  name: 'Karo',
+  subtitle: 'Clow Fight',
+  detail: `Vani! sigue con las buenas vibras! las locuras! el anime! y todas las cosas buena onda que haces :3 Un abrazo a la distancia, espero que consigas todas tus metas y deseos! <3 <3 Feliz cumple mujer!`,
+  picture: './img/ClowFight.jpg',
+  color: 'flex--dialga',
+},
+{
+  name: 'Danae',
+  subtitle: 'Clow Shadow',
+  detail: `Feliz cumpleaños Vania! Mis deseos para tí son que sigas abriendote nuevos caminos con el éxito que lo haz hecho hasta ahora, que descubras nuevos horizontes, te plantees nuevos sueños y que nada te detenga para conseguirlos. Eres una persona admirable y tienes el don de inspirar e impulsar a otros, sigue así. Un fuerte abrazo a la distancia, felicidades!`,
+  picture: './img/ClowShadow.jpg',
+  color: 'flex--zekrom',
+},
+{
+  name: 'Lu',
+  subtitle: 'Clow Mirror',
+  detail: `Feliz cumplee Jefaaaa! Que sean muchos bonitos años mas de vida para tii y que sonrias siempre!! Te mando un abrazo grandote con todo mi cariño! <3`,
+  picture: './img/Espejo.jpg',
+  color: 'flex--zekrom',
+}, 
 ];
 
 function renderItem({id = 0, name = '', subtitle = '', detail = '', picture = '', color = 'flex--piplup'}) {
