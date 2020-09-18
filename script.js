@@ -222,6 +222,19 @@ const dataNotes = [{
   picture: './img/Espejo.jpg',
   color: 'flex--zekrom',
 }, 
+{
+  name: 'Susy',
+  subtitle: 'Clow Fight',
+  detail: `Happy birthday querida vanita!
+  Que este cumple la pases tan genial y que no pares de sonreír.
+  Cumple cada uno de tus sueños y disfrutalos mucho ♡
+  Gracias por inspirarme a seguir creyendo en mi y luchar por mi y mis sueños. Eres simplemente grandiosa.
+  Te quiero mucho mucho ♡
+  Muchos besos 
+  By Susy ♡`,
+  picture: './img/ClowFight.jpg',
+  color: 'flex--zekrom',
+}, 
 ];
 
 function renderItem({id = 0, name = '', subtitle = '', detail = '', picture = '', color = 'flex--piplup'}) {
