@@ -235,6 +235,21 @@ const dataNotes = [{
   picture: './img/ClowFight.jpg',
   color: 'flex--zekrom',
 }, 
+{
+  name: 'Gaby B',
+  subtitle: 'Clow Forest',
+  detail: `✿✿ FELIZ CUMPLE VANIA✿✿
+  Espero hayas tenido un lindo cumple❣❣❣
+  ☀☀☀Sigue brillando❣❣❣
+  Es un gusto trabajar a tu lado!! TQMM
+  ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+  ───█▒▒░░░░░░░░░▒▒█───
+  ────█░░█░░░░░█░░█────
+  ─▄▄──█░░░▀█▀░░░█──▄▄─
+  █░░█─▀▄░░░░░░░▄▀─█░░█`,
+  picture: './img/Bosque.jpg',
+  color: 'flex--zekrom',
+}, 
 ];
 
 function renderItem({id = 0, name = '', subtitle = '', detail = '', picture = '', color = 'flex--piplup'}) {
