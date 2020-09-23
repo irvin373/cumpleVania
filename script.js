@@ -256,14 +256,16 @@ function renderItem({id = 0, name = '', subtitle = '', detail = '', picture = ''
   id = id + 1;
   return (`<div class="flex__container ${color} ${id === 1 ? 'flex--active' : 'animate--start'}" data-slide="${id}">
     <div class="flex__item flex__item--left">
-      <div class="flex__content">
+    <div class="flex__content">
         <p class="text--sub">${subtitle}</p>
         <h1 class="text--big">${name}</h1>
         <p class="text--normal">${detail}</p>
       </div>
       <p class="text__background">${name}</p>
     </div>
-    <div class="flex__item flex__item--right"></div>
+    <div class="flex__item flex__item--right">
+      ${id === 1 ? '<a class="text--download" href="logistica.pdf">Miro file</a>' : ''}
+    </div>
     <img class="pokemon__img" src="${picture}" />
   </div>`);
 }

@@ -82,6 +82,15 @@ body {
   margin-left: -8px;
 }
 
+.text--download {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 110px;
+	margin-left: 1em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
 .text--normal {
 	font-size: 18px;
 	color: rgba(255, 255, 255, 0.8);
